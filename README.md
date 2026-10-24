@@ -229,6 +229,13 @@ python3 -m unittest discover -s tests -v
 
 ## Included skills
 
+- `recap`: review human-corrected mistakes in the current conversation and propose
+  prevention through architecture or interfaces, linters, then targeted review
+  instructions. Proposals stay in chat; implementation is a separate task. This
+  is an original skill and uses the included `codebase-design` reference when
+  assessing module or interface changes. Invoke `/personal-skills:recap` in Claude
+  Code or `$recap` in Codex.
+
 - `writing-for-agents`: Matt Pocock’s guidance for writing skills and other agent
   documents, imported from [`mattpocock/skills`](https://github.com/mattpocock/skills)
   at `5beb35b040e3de97e54fa9e386d7e42d15c295c2`. Its supporting
