@@ -1,0 +1,7 @@
+{
+  "name": "angrylogic-personal",
+  "owner": { "name": "angrylogic" },
+  "plugins": [
+    { "name": "personal-skills", "source": "./" }
+  ]
+}

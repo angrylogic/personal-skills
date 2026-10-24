@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "personal-skills",
+  "version": "0.1.0",
+  "description": "Personal skills for Codex and Claude Code.",
+  "author": { "name": "angrylogic" },
+  "repository": "https://github.com/angrylogic/personal-skills"
+}
